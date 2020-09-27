@@ -2,7 +2,7 @@
   "name": "inbedby7pm",
   "displayName": "InBedBy7pm",
   "description": "A color theme for non-night owls",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "sdras",
   "engines": {
     "vscode": "^1.49.0"
@@ -25,13 +25,8 @@
   "keywords": [
     "Theme",
     "Dark Theme",
-    "Light Theme",
-    "Night Owl",
-    "Night Theme",
-    "Light Owl",
-    "Snow Owl",
-    "Early Bird",
-    "Accessible Theme"
+    "In Bed By 7pm",
+    "Sleepy"
   ],
   "contributes": {
     "themes": [
