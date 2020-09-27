@@ -77,19 +77,19 @@
     "editorLineNumber.foreground": "#4b6479",
     "editorLineNumber.activeForeground": "#C5E4FD",
     "editorCursor.foreground": "#80a4c2",
-    "editor.selectionBackground": "#1d3b53",
+    "editor.selectionBackground": "#191f38cc",
     "editor.selectionHighlightBackground": "#191f383f",
-    "editor.inactiveSelectionBackground": "#7e57c25a",
+    "editor.inactiveSelectionBackground": "#191f383f",
     "editor.wordHighlightBackground": "#191f383f",
     "editor.wordHighlightStrongBackground": "#191f383f",
     "editor.findMatchBackground": "#191f383f",
-    "editor.findMatchHighlightBackground": "#1085bb5d",
+    "editor.findMatchHighlightBackground": "#191f383f",
     "editor.findRangeHighlightBackground": null,
     "editor.hoverHighlightBackground": "#191f383f",
-    "editor.lineHighlightBackground": "#0003",
+    "editor.lineHighlightBackground": "#191f383f",
     "editor.lineHighlightBorder": null,
     "editorLink.activeForeground": null,
-    "editor.rangeHighlightBackground": "#7e57c25a",
+    "editor.rangeHighlightBackground": "#191f383f",
     "editorWhitespace.foreground": null,
     "editorIndentGuide.background": "#5e81ce52",
     "editorIndentGuide.activeBackground": "#7E97AC",
@@ -204,8 +204,7 @@
     "gitDecoration.ignoredResourceForeground": "#395a75",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
@@ -289,14 +288,14 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#f7c1a7"
       }
     },
     {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#f7c1a7"
       }
     },
     {
@@ -343,7 +342,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#bde5f5"
+        "foreground": "#a5ffe2"
       }
     },
     {
@@ -559,7 +558,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#f7c1a7"
       }
     },
     {
@@ -622,7 +621,7 @@
       "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#f07178"
+        "foreground": "#f7c1a7"
       }
     },
     {
@@ -630,7 +629,7 @@
       "scope": ["markup.bold", "markup.bold string"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#f07178"
+        "foreground": "#f7c1a7"
       }
     },
     {
@@ -645,7 +644,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#f07178"
+        "foreground": "#f7c1a7"
       }
     },
     {
@@ -743,6 +742,26 @@
       "scope": ["markup.table"],
       "settings": {
         "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "name": "TypeScript[React] Variables and Object Properties",
+      "scope": [
+        "variable.other.readwrite.alias.ts",
+        "variable.other.readwrite.alias.tsx",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.tsx",
+        "variable.other.object.ts",
+        "variable.other.object.tsx",
+        "variable.object.property.ts",
+        "variable.object.property.tsx",
+        "variable.other.ts",
+        "variable.other.tsx",
+        "variable.tsx",
+        "variable.ts"
+      ],
+      "settings": {
+        "foreground": "#a5ffe2"
       }
     }
   ]
