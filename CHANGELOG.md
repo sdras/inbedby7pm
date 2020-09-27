@@ -2,6 +2,10 @@
 
 All notable changes to the "In Bed by 7pm" extension are be documented in this file.
 
+## 0.3.1
+
+- Work on highlighting more
+
 ## 0.3.0
 
 - Fix selections intensity and highlight
