@@ -10,12 +10,10 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [
-            {
-                "label": "In Bed by 7pm",
-                "uiTheme": "vs-dark",
-                "path": "./themes/In Bed by 7pm-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "In Bed by 7pm",
+            "uiTheme": "vs-dark",
+            "path": "./themes/in-bed-by-7.json"
+        }]
     }
 }
