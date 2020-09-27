@@ -1,19 +1,44 @@
 {
-    "name": "inbedby7pm",
-    "displayName": "InBedBy7pm",
-    "description": "A color theme for non-night owls",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.49.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [{
-            "label": "In Bed by 7pm",
-            "uiTheme": "vs-dark",
-            "path": "./themes/in-bed-by-7.json"
-        }]
-    }
+  "name": "inbedby7pm",
+  "displayName": "InBedBy7pm",
+  "description": "A color theme for non-night owls",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdras/night-owl-vscode-theme"
+  },
+  "icon": "sleep-icon.jpg",
+  "galleryBanner": {
+    "color": "#292c3d",
+    "theme": "dark"
+  },
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Light Theme",
+    "Night Owl",
+    "Night Theme",
+    "Light Owl",
+    "Snow Owl",
+    "Early Bird",
+    "Accessible Theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "In Bed by 7pm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/in-bed-by-7.json"
+      }
+    ]
+  }
 }
