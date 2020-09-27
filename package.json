@@ -2,7 +2,7 @@
   "name": "inbedby7pm",
   "displayName": "In Bed By 7pm",
   "description": "A color theme for non-night owls",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "sdras",
   "license": "SEE LICENSE IN LICENSE.md",
   "engines": {
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sdras/night-owl-vscode-theme"
+    "url": "https://github.com/sdras/inbedby7pm"
   },
   "icon": "sleep-icon.jpg",
   "galleryBanner": {
