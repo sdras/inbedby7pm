@@ -2,6 +2,11 @@
 
 All notable changes to the "In Bed by 7pm" extension are be documented in this file.
 
+## 0.2.0
+
+- Update colors for all languages
+- Add in more screenshots
+
 ## 0.1.2
 
 - Update repo link

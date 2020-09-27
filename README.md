@@ -7,7 +7,10 @@ My first VS Code Theme was Night Owl, and I got a request for a new kind of them
 
 About this theme, and some of the considerations made while creating it (as well as _how_ to create it should you want to make your own): [https://css-tricks.com/creating-a-vs-code-theme/](https://css-tricks.com/creating-a-vs-code-theme/)
 
-![In Bed By 7pm Screen](inbedby7.png)
+![vue](vue.png)
+![react](react-sample.png)
+![javascript](js-sample.png)
+![powershell](powershell.png)
 
 # Installation
 
