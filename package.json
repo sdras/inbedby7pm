@@ -1,0 +1,21 @@
+{
+    "name": "inbedby7pm",
+    "displayName": "InBedBy7pm",
+    "description": "A color theme for non-night owls",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "In Bed by 7pm",
+                "uiTheme": "vs-dark",
+                "path": "./themes/In Bed by 7pm-color-theme.json"
+            }
+        ]
+    }
+}
