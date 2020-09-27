@@ -21,3 +21,5 @@ About this theme, and some of the considerations made while creating it (as well
 5.  Click **Install** to install it
 6.  Click **Reload** to reload the Code
 7.  From the menu bar click: Code > Preferences > Color Theme > **In Bed By 7pm**
+
+Suggestions and contributions welcome :)
