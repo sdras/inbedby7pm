@@ -3,10 +3,10 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#292c3d",
-		"editor.foreground": "#d6deeb",
+		"editor.foreground": "#dae0ef",
 		"contrastBorder": "#122d42",
 		"focusBorder": "#122d42",
-		"foreground": "#d6deeb",
+		"foreground": "#dae0ef",
 		"widget.shadow": "#292c3d",
 		"selection.background": "#4373c2",
 		"errorForeground": "#EF5350",
@@ -116,7 +116,7 @@
 		"editorWidget.border": "#ebf7ff",
 		"editorSuggestWidget.background": "#2C3043",
 		"editorSuggestWidget.border": "#2B2F40",
-		"editorSuggestWidget.foreground": "#d6deeb",
+		"editorSuggestWidget.foreground": "#dae0ef",
 		"editorSuggestWidget.highlightForeground": "#ffffff",
 		"editorSuggestWidget.selectedBackground": "#ebf7ff",
 		"editorHoverWidget.background": "#292c3d",
@@ -147,7 +147,7 @@
 		"panel.border": "#ebf7ff",
 		"panelTitle.activeBorder": "#ebf7ff",
 		"panelTitle.activeForeground": "#ffffffcc",
-		"panelTitle.inactiveForeground": "#d6deeb80",
+		"panelTitle.inactiveForeground": "#dae0ef80",
 		"statusBar.background": "#292c3d",
 		"statusBar.foreground": "#ebf7ff",
 		"statusBar.border": "#262A39",
@@ -241,7 +241,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#edf3a3"
 			}
 		},
 		{
@@ -283,7 +283,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#a5e6ba"
+				"foreground": "#e0b5e2"
 			}
 		},
 		{
@@ -331,7 +331,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#ebffc5"
 			}
 		},
 		{
@@ -346,7 +346,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#8d99b9"
+				"foreground": "#fbcbb2"
 			}
 		},
 		{
@@ -362,7 +362,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#bde5f5"
 			}
 		},
 		{
@@ -396,7 +396,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#edf3a3"
 			}
 		},
 		{
@@ -406,7 +406,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#edf3a3"
 			}
 		},
 		{
@@ -435,7 +435,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#93B7BE"
+				"foreground": "#a1eaea"
 			}
 		},
 		{
@@ -446,7 +446,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#bde5f5"
 			}
 		},
 		{
@@ -455,7 +455,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#bde5f5"
 			}
 		},
 		{
@@ -482,7 +482,7 @@
 				"markup.deleted"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#edf3a3"
 			}
 		},
 		{
@@ -541,7 +541,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#edf3a3"
 			}
 		},
 		{
@@ -559,7 +559,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#bde5f5"
 			}
 		},
 		{
@@ -568,7 +568,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#ebffc5"
 			}
 		},
 		{
@@ -577,7 +577,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#edf3a3"
 			}
 		},
 		{
@@ -707,7 +707,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F78C6C"
+				"foreground": "#ebffc5"
 			}
 		},
 		{
@@ -752,7 +752,7 @@
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#bde5f5"
 			}
 		},
 		{
