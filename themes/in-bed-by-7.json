@@ -715,6 +715,15 @@
       }
     },
     {
+      "name": "Markdown - Inline Raw String",
+      "scope": [
+        "markup.inline.raw.string.markdown"
+      ],
+      "settings": {
+        "foreground": "#a5ffe2"
+      }
+    },
+    {
       "name": "Markdown - Fenced Bode Block",
       "scope": ["punctuation.definition.fenced.markdown"],
       "settings": {
