@@ -2,6 +2,13 @@
 
 All notable changes to the "In Bed by 7pm" extension are be documented in this file.
 
+## 0.3.3
+
+- Welcome screen improvements
+- Fix terminal red
+- Work on ruby highlighting
+- Better scrollbar visibility
+
 ## 0.3.2
 
 - Markdown string
