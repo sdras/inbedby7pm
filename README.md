@@ -17,7 +17,7 @@ About this theme, and some of the considerations made while creating it (as well
 1.  Install [Visual Studio Code](https://code.visualstudio.com/)
 2.  Launch Visual Studio Code
 3.  Choose **Extensions** from menu
-4.  Search for `inbedby7`
+4.  Search for `in bed by 7pm`
 5.  Click **Install** to install it
 6.  Click **Reload** to reload the Code
 7.  From the menu bar click: Code > Preferences > Color Theme > **In Bed By 7pm**
