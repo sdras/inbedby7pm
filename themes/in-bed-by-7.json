@@ -740,6 +740,13 @@
       }
     },
     {
+      "name": "Markdown Inline Raw String",
+      "scope": "markup.inline.raw.string.markdown",
+      "settings": {
+        "foreground": "#eeadf1"
+      }
+    },
+    {
       "name": "Markdown - Separator",
       "scope": ["meta.separator"],
       "settings": {

@@ -2,6 +2,11 @@
 
 All notable changes to the "In Bed by 7pm" extension are be documented in this file.
 
+## 0.3.2
+
+- Markdown string
+- Change default green for file change and terminal
+
 ## 0.3.1
 
 - Work on highlighting more

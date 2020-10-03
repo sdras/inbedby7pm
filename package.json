@@ -2,7 +2,7 @@
   "name": "inbedby7pm",
   "displayName": "In Bed By 7pm",
   "description": "A color theme for non-night owls",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "publisher": "sdras",
   "license": "SEE LICENSE IN LICENSE.md",
   "engines": {
@@ -27,6 +27,9 @@
     "Theme",
     "Dark Theme",
     "In Bed By 7pm",
+    "InBedBy7pm",
+    "Soothing",
+    "Palette",
     "Sleepy"
   ],
   "contributes": {
