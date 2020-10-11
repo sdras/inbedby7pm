@@ -2,6 +2,12 @@
 
 All notable changes to the "In Bed by 7pm" extension are be documented in this file.
 
+## 0.3.4
+
+- Fix tab/inactive tab
+- Work on string and key
+- Update highlighting
+
 ## 0.3.3
 
 - Welcome screen improvements

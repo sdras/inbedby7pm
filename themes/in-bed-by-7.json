@@ -44,6 +44,7 @@
     "list.focusBackground": "#010d18",
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#ffffff",
+    "list.highlightBackground": "#00000033",
     "list.hoverBackground": "#292c3d",
     "list.hoverForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#30354A",
@@ -65,12 +66,12 @@
     "editorGroupHeader.noTabsBackground": "#292c3d",
     "editorGroupHeader.tabsBackground": "#292c3d",
     "editorGroupHeader.tabsBorder": "#262A39",
-    "tab.activeBackground": "#292c3d",
+    "tab.activeBackground": "#1f2129",
     "tab.activeForeground": "#d2dee7",
     "tab.border": "#17181d",
     "tab.activeBorder": null,
     "tab.unfocusedActiveBorder": "#17181d",
-    "tab.inactiveBackground": "#1f2129",
+    "tab.inactiveBackground": "#292c3d",
     "tab.inactiveForeground": "#ebf7ff",
     "tab.unfocusedActiveForeground": "#ebf7ff",
     "tab.unfocusedInactiveForeground": "#17181d",
@@ -78,7 +79,7 @@
     "editorLineNumber.activeForeground": "#C5E4FD",
     "editorCursor.foreground": "#80a4c2",
     "editor.selectionBackground": "#161923dd",
-    "editor.selectionHighlightBackground": "#16192366",
+    "editor.selectionHighlightBackground": "#ffffff33",
     "editor.inactiveSelectionBackground": "#16192333",
     "editor.wordHighlightBackground": "#16192333",
     "editor.wordHighlightStrongBackground": "#16192333",
@@ -118,7 +119,7 @@
     "editorSuggestWidget.border": "#666a79",
     "editorSuggestWidget.foreground": "#ebecf1",
     "editorSuggestWidget.highlightForeground": "#ffffff",
-    "editorSuggestWidget.selectedBackground": "#1f212966",
+    "editorSuggestWidget.selectedBackground": "#00000033",
     "editorHoverWidget.background": "#292c3d",
     "editorHoverWidget.border": "#666a79",
     "debugExceptionWidget.background": "#1f2129",
@@ -204,7 +205,8 @@
     "gitDecoration.ignoredResourceForeground": "#395a75",
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
@@ -273,6 +275,14 @@
       }
     },
     {
+      "name": "Variable Property Other object property",
+      "scope": ["variable.other.object.property"],
+      "settings": {
+        "foreground": "#faf39f",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
@@ -318,15 +328,33 @@
     },
     {
       "name": "String, Symbols, Markup Heading",
-      "scope": [
-        "string",
-        "constant.other.symbol",
-        "constant.other.key",
-        "markup.heading",
-        "markup.inserted.git_gutter"
-      ],
+      "scope": ["string", "markup.heading", "markup.inserted.git_gutter"],
       "settings": {
         "foreground": "#8ec3f9"
+      }
+    },
+    {
+      "name": "String Quoted",
+      "scope": [
+        "string.quoted",
+        "variable.other.readwrite.js",
+        "string.quoted.single.js"
+      ],
+      "settings": {
+        "foreground": "#e9f3b7"
+      }
+    },
+    {
+      "name": "Object Keys",
+      "scope": [
+        "string.unquoted.js",
+        "constant.other.object.key.js",
+        "constant.other.symbol",
+        "constant.other.key",
+        "source.js"
+      ],
+      "settings": {
+        "foreground": "#e9f3b7"
       }
     },
     {
@@ -515,7 +543,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#be8fda"
+        "foreground": "#e9f3b7"
       }
     },
     {
@@ -524,7 +552,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#eccdcd"
+        "foreground": "#eeadf1"
       }
     },
     {
@@ -533,7 +561,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#e9f3b7"
+        "foreground": "#eccdcd"
       }
     },
     {
@@ -542,7 +570,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#e9f3b7"
+        "foreground": "#cde0be"
       }
     },
     {
@@ -551,7 +579,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C17E70"
+        "foreground": "#eeadf1"
       }
     },
     {
@@ -798,7 +826,8 @@
       "settings": {
         "foreground": "#cde0be"
       }
-    }, {
+    },
+    {
       "name": "C++ Functions",
       "scope": [
         "entity.name.function.preprocessor.cpp",
@@ -807,42 +836,41 @@
       "settings": {
         "foreground": "#cde0be"
       }
-    }, {
+    },
+    {
       "name": "C++ Meta Namespace",
-      "scope": [
-        "meta.namespace-block.cpp"
-      ],
+      "scope": ["meta.namespace-block.cpp"],
       "settings": {
         "foreground": "#65737E"
       }
-    }, {
+    },
+    {
       "name": "C++ Language Primitive Storage",
-      "scope": [
-        "storage.type.language.primitive.cpp"
-      ],
+      "scope": ["storage.type.language.primitive.cpp"],
       "settings": {
         "foreground": "#ff5874"
       }
-    }, {
+    },
+    {
       "name": "C++ Preprocessor Macro",
-      "scope": [
-        "meta.preprocessor.macro.cpp"
-      ],
+      "scope": ["meta.preprocessor.macro.cpp"],
       "settings": {
         "foreground": "#EEFFFF"
       }
-    }, {
+    },
+    {
       "name": "C++ Variable Parameter",
-      "scope": [
-        "variable.parameter"
-      ],
+      "scope": ["variable.parameter"],
       "settings": {
         "foreground": "#cde0be"
       }
     },
     {
       "name": "Dart String",
-      "scope": ["string.interpolated.single.dart", "string.interpolated.double.dart"],
+      "scope": [
+        "string.interpolated.single.dart",
+        "string.interpolated.double.dart"
+      ],
       "settings": {
         "foreground": "#ff5874"
       }
