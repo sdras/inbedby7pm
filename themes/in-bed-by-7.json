@@ -8,7 +8,7 @@
     "focusBorder": "#1a1c27",
     "foreground": "#ebecf1",
     "widget.shadow": "#292c3d",
-    "selection.background": "#1f212933",
+    "selection.background": "#ffffff22",
     "errorForeground": "#c18e76",
     "button.background": "#7e57c2cc",
     "button.foreground": "#ffffffcc",
@@ -78,13 +78,13 @@
     "editorLineNumber.foreground": "#4b6479",
     "editorLineNumber.activeForeground": "#C5E4FD",
     "editorCursor.foreground": "#80a4c2",
-    "editor.selectionBackground": "#161923dd",
-    "editor.selectionHighlightBackground": "#ffffff33",
-    "editor.inactiveSelectionBackground": "#16192333",
+    "editor.selectionBackground": "#363d53dd",
+    "editor.selectionHighlightBackground": "#363d53dd",
+    "editor.inactiveSelectionBackground": "#303649a4",
     "editor.wordHighlightBackground": "#16192333",
     "editor.wordHighlightStrongBackground": "#16192333",
-    "editor.findMatchBackground": "#16192333",
-    "editor.findMatchHighlightBackground": "#16192333",
+    "editor.findMatchBackground": "#f3ff486b",
+    "editor.findMatchHighlightBackground": "#f3ff482a",
     "editor.findRangeHighlightBackground": null,
     "editor.hoverHighlightBackground": "#16192322",
     "editor.lineHighlightBackground": "#16192366",
@@ -341,7 +341,7 @@
         "string.quoted.single.js"
       ],
       "settings": {
-        "foreground": "#e9f3b7"
+        "foreground": "#e2c3b2"
       }
     },
     {
@@ -354,7 +354,7 @@
         "source.js"
       ],
       "settings": {
-        "foreground": "#e9f3b7"
+        "foreground": "#9dd2e8"
       }
     },
     {
@@ -588,7 +588,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#e2c3b2"
+        "foreground": "#a5ffe2"
       }
     },
     {
