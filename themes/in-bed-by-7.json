@@ -78,8 +78,8 @@
     "editorLineNumber.foreground": "#4b6479",
     "editorLineNumber.activeForeground": "#C5E4FD",
     "editorCursor.foreground": "#80a4c2",
-    "editor.selectionBackground": "#363d53dd",
-    "editor.selectionHighlightBackground": "#363d53dd",
+    "editor.selectionBackground": "#4c536cba",
+    "editor.selectionHighlightBackground": "#4c536cba",
     "editor.inactiveSelectionBackground": "#303649a4",
     "editor.wordHighlightBackground": "#16192333",
     "editor.wordHighlightStrongBackground": "#16192333",
@@ -543,7 +543,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#e9f3b7"
+        "foreground": "#9dd2e8"
       }
     },
     {
