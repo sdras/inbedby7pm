@@ -210,7 +210,6 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#b6b5cca1"
       }
     },
@@ -218,8 +217,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#d4f5f5",
-        "fontStyle": "italic"
+        "foreground": "#d4f5f5"
       }
     },
     {
@@ -278,8 +276,7 @@
       "name": "Variable Property Other object property",
       "scope": ["variable.other.object.property"],
       "settings": {
-        "foreground": "#faf39f",
-        "fontStyle": "italic"
+        "foreground": "#faf39f"
       }
     },
     {
@@ -322,8 +319,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#e9f3b7",
-        "fontStyle": "italic"
+        "foreground": "#e9f3b7"
       }
     },
     {
@@ -419,7 +415,6 @@
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#e9f3b7"
       }
     },
@@ -427,7 +422,6 @@
       "name": "entity.name.method.js",
       "scope": ["entity.name.method.js"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#9dd2e8"
       }
     },
@@ -455,7 +449,6 @@
         "text.html.basic entity.other.attribute-name"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#bde5f5"
       }
     },
@@ -498,7 +491,6 @@
       "name": "Regular Expressions",
       "scope": ["string.regexp"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#9dd2e8"
       }
     },
@@ -523,7 +515,6 @@
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#9dd2e8"
       }
     },
@@ -533,7 +524,6 @@
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#e9f3b7"
       }
     },
@@ -886,8 +876,7 @@
       "name": "Ruby Variables",
       "scope": ["variable.other.ruby"],
       "settings": {
-        "foreground": "#be8fda",
-        "fontStyle": "italic"
+        "foreground": "#be8fda"
       }
     }
   ]
