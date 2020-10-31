@@ -38,6 +38,11 @@
         "label": "In Bed by 7pm",
         "uiTheme": "vs-dark",
         "path": "./themes/in-bed-by-7.json"
+      },
+      {
+        "label": "In Bed by 7pm (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/in-bed-by-7-noitalic.json"
       }
     ]
   }
